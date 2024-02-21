@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class StudentManagementMain {
 
-	public static void main(String[] args) {
-//		ArrayList<Student> st = new ArrayList<Student>(); //학생 정보 저장 
-		
+	public static void main(String[] args) { 
 		StudentFunctions fun = new StudentFunctions();
 		
 		int menuSelect; // 메뉴 선택번호
