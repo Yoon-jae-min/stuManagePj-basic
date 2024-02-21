@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.List;
 
 public class StudentFunctions {
-	private ArrayList<Student> st = new ArrayList<Student>();
+	private List<Student> st = new ArrayList<Student>();
 	private Scanner scanner = new Scanner(System.in);
 	
 	//등록 기능
