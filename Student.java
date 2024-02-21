@@ -7,14 +7,14 @@ public class Student {
 	private boolean sex;  //성별 True = 남, False = 여
 	private int grade;  //학년
 	
-	public Student(String name, String major, String telNumber, String studentID, boolean sex, int grade) {
-		this.name = name;
-		this.major = major;
-		this.telNumber = telNumber;
-		this.studentID = studentID;
-		this.sex = sex;
-		this.grade = grade;
-	}
+	// public Student(String name, String major, String telNumber, String studentID, boolean sex, int grade) {
+	// 	this.name = name;
+	// 	this.major = major;
+	// 	this.telNumber = telNumber;
+	// 	this.studentID = studentID;
+	// 	this.sex = sex;
+	// 	this.grade = grade;
+	// }
 	
 	public String getStudentID() {
 		return studentID;
